@@ -1,0 +1,26 @@
+{
+  "name": "babel-loader-exclude-node-modules-except",
+  "version": "1.0.0",
+  "description": "Creating a regular expression for excluding node_modules from babel transpiling except for individual modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WezomAgency/babel-loader-exclude-node-modules-except.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel-loader",
+    "exclude",
+    "node_modules",
+    "es6 modules"
+  ],
+  "author": "Oleg Dutchenko <dutchenko.o.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WezomAgency/babel-loader-exclude-node-modules-except/issues"
+  },
+  "homepage": "https://github.com/WezomAgency/babel-loader-exclude-node-modules-except#readme"
+}

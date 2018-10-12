@@ -1,0 +1,28 @@
+# http://EditorConfig.org
+root = true
+charset = utf-8
+indent_style = tab
+trim_trailing_whitespace = true
+end_of_line = crlf
+insert_final_new_line = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# 2 spaces
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.lock]
+indent_style = space
+indent_size = 2
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# 4 spaces
+[*.php]
+indent_style = space
+indent_size = 4
