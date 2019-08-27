@@ -1,6 +1,6 @@
 {
   "name": "babel-loader-exclude-node-modules-except",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Creating a regular expression for excluding node_modules from babel transpiling except for individual modules",
   "main": "index.js",
   "scripts": {
@@ -18,12 +18,15 @@
     "es6 modules"
   ],
   "author": "Oleg Dutchenko <dutchenko.o.dev@gmail.com>",
+  "contributors": [
+    "April Arcus (https://github.com/AprilArcus)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/WezomAgency/babel-loader-exclude-node-modules-except/issues"
   },
   "homepage": "https://github.com/WezomAgency/babel-loader-exclude-node-modules-except#readme",
   "dependencies": {
-    "escape-string-regexp": "^2.0.0"
+    "escape-string-regexp": "2.0.0"
   }
 }

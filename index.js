@@ -1,15 +1,17 @@
 'use strict';
 
+/**
+ * @module
+ * @author Oleg Dutchenko <dutchenko.o.dev@gmail.com>
+ * @version 1.0.3
+ * @contributors
+ *  - April Arcus {@link https://github.com/AprilArcus}
+ */
+
 var path = require('path')
   , escapeStringRegexp = require('escape-string-regexp')
   , ESCAPED_NODE_MODULES = escapeStringRegexp('node_modules')
   , ESCAPED_PATH_SEP = escapeStringRegexp(path.sep);
-
-/**
- * @module
- * @author Oleg Dutchenko <dutchenko.o.dev@gmail.com>
- * @version 1.0.2
- */
 
 // ----------------------------------------
 // Public

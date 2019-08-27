@@ -38,3 +38,17 @@ module.exports = {
 };
 
 ```
+
+---
+
+#### Contributors 💪
+
+- April Arcus [@AprilArcus](https://github.com/AprilArcus)
+
+---
+
+#### License
+
+[MIT License](https://github.com/WezomAgency/babel-loader-exclude-node-modules-except/blob/master/LICENSE)
+
+---
