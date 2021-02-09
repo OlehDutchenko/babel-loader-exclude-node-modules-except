@@ -3,7 +3,12 @@
 [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/WezomAgency/babel-loader-exclude-node-modules-except/blob/master/LICENSE)
 [![npm](https://img.shields.io/badge/js--tiny-module-yellow.svg)](https://github.com/topics/js-tiny-module)
 [![npm](https://img.shields.io/badge/npm-install-orange.svg)](https://www.npmjs.com/package/babel-loader-exclude-node-modules-except)
-[![npm](https://img.shields.io/badge/wezom-agency-red.svg)](https://github.com/WezomAgency)
+![Tests](https://github.com/dutchenkoOleg/babel-loader-exclude-node-modules-except/workflows/Tests/badge.svg)
+
+
+| Statements                  | Branches                | Functions                 | Lines                |
+| --------------------------- | ----------------------- | ------------------------- | -------------------- |
+| ![Statements](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Branches](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Functions](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Lines](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)    |
 
 > Creating a regular expression for excluding node_modules  
 > from babel transpiling except for individual modules
