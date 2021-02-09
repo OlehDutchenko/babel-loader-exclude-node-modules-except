@@ -4,7 +4,7 @@
   "description": "Creating a regular expression for excluding node_modules from babel transpiling except for individual modules",
   "main": "index.js",
   "scripts": {
-    "test": "npm run prettier && npm run eslint",
+    "test": "npm run prettier && npm run eslint && npm run jest",
     "prettier": "prettier index.js --check",
     "eslint": "eslint index.js",
     "jest": "jest",
