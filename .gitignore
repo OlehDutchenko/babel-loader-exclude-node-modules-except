@@ -8,4 +8,5 @@ thumbs.db
 *.iws
 
 node_modules/
+coverage/
 package-lock.json
