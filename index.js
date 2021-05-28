@@ -23,7 +23,29 @@ function babelLoaderExcludeNodeModulesExcept(exceptionList) {
 		});
 
 		const alternationGroup =
-			'(' + normalizedExceptionList.map(escapeStringRegexp).join('|') + ')';
+			'(' +
+			normalizedExceptionList
+				.map((item) => {
+					// Breaking down string by wildcards. For every
+					// occurrance between wildcards build the portion
+					// with escapeStringRegexp.
+					// For the wildcards, replace them by a non-capturing
+					// group matching everything.
+					const match = item.match(/([^*]*)/g);
+					return match
+						.map((m, i) => {
+							if (m.length > 0) {
+								return escapeStringRegexp(m);
+							} else if (i !== match.length - 1 && m.length === 0) {
+								return '(?:.*)';
+							} else {
+								return '';
+							}
+						})
+						.join('');
+				})
+				.join('|') +
+			')';
 
 		// If the exception list includes e.g. "react", we don't want to
 		// accidentally make an exception for "react-dom", so make sure to
