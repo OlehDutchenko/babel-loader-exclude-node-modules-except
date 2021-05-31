@@ -44,11 +44,43 @@ module.exports = {
 
 ```
 
+### Also, wildcards for matching are allowed, except names
+
+_Since v1.2.0_
+
+
+```js
+// webpack.config.js
+
+const babelLoaderExcludeNodeModulesExcept = require('babel-loader-exclude-node-modules-except');
+
+module.exports = {
+  // config properties
+  // ...
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: babelLoaderExcludeNodeModulesExcept([
+          'react-*',
+          '@awesomecorp/*'
+        ]),
+        use: {
+          loader: 'babel-loader'
+        }
+      }
+    ]
+  }
+};
+
+
+
 ---
 
 #### Contributors 💪
 
 - April Arcus [@AprilArcus](https://github.com/AprilArcus)
+- Thordur Thordarson [@earthslasthope](https://github.com/earthslasthope)
 
 ---
 
