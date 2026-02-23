@@ -1,9 +1,9 @@
 # babel-loader-exclude-node-modules-except
 
-[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/WezomAgency/babel-loader-exclude-node-modules-except/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/OlehDutchenko/babel-loader-exclude-node-modules-except/blob/master/LICENSE)
 [![npm](https://img.shields.io/badge/js--tiny-module-yellow.svg)](https://github.com/topics/js-tiny-module)
 [![npm](https://img.shields.io/badge/npm-install-orange.svg)](https://www.npmjs.com/package/babel-loader-exclude-node-modules-except)
-![Tests](https://github.com/dutchenkoOleg/babel-loader-exclude-node-modules-except/workflows/Tests/badge.svg)
+![Tests](https://github.com/OlehDutchenko/babel-loader-exclude-node-modules-except/workflows/Tests/badge.svg)
 
 | Statements                                                                               | Branches                                                                             | Functions                                                                              | Lines                                                                          |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
