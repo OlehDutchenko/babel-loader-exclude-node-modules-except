@@ -31,9 +31,6 @@
     "url": "https://github.com/dutchenkoOleg/babel-loader-exclude-node-modules-except/issues"
   },
   "homepage": "https://github.com/dutchenkoOleg/babel-loader-exclude-node-modules-except#readme",
-  "dependencies": {
-    "escape-string-regexp": "5.0.0"
-  },
   "devDependencies": {
     "istanbul-badges-readme": "^1.9.0",
     "jest": "^29.7.0",

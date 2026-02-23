@@ -1,5 +1,9 @@
 const path = require('path');
-const escapeStringRegexp = require('escape-string-regexp');
+
+function escapeStringRegexp(string) {
+	return string.replace(/[\\^$*+?.()|[\]{}-]/g, '\\$&');
+}
+
 const ESCAPED_NODE_MODULES = escapeStringRegexp('node_modules');
 const ESCAPED_PATH_SEP = escapeStringRegexp(path.sep);
 
