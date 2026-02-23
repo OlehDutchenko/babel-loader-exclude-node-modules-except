@@ -1,6 +1,6 @@
 {
   "name": "babel-loader-exclude-node-modules-except",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Creating a regular expression for excluding node_modules from babel transpiling except for individual modules",
   "main": "index.js",
   "files": [
