@@ -1,4 +1,4 @@
-name: Test Actions
+name: Tests
 
 on: [push, pull_request]
 
